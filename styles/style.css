@@ -1,0 +1,6 @@
+@include color-mode(dark) {
+  .callout {
+    color: #ffda6a;
+    background-color: #332701;
+  }
+}
