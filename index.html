@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src https://*; child-src 'none';"
+    />
+    <meta
       name="viewport"
       content="Croissant, French pastry that is typically crescent-shaped, which is the origin of its French name"
     />
@@ -19,18 +23,37 @@
     />
   </head>
   <body class="bg-warning-subtle" data-bs-theme="dark">
-    <div class="my-4 text-center">
-      <h1 class="display-2 text-warning">🥐 Croissant</h1>
-      <p class="my-4 mx-3">
+    <div class="my-5 text-center">
+      <h1 class="display-2 text-warning mb-5">🥐 Croissant</h1>
+      <p class="mx-3 px-5">
+        A croissant is a laminated, yeast-leavened bakery product that contains
+        dough/roll-in fat layers to create a flaky, crispy texture.
+        <br />Croissants belong to the Viennoiserie or pastry category of baked
+        goods along with brioche, Danish and puff pastries. <br />A
+        <a
+          href="photo.html"
+          class="link-secondary link-underline-opacity-75-hover"
+          >croissant</a
+        >
+        usually contains normal levels of salt, yeast and sugar.
+      </p>
+
+      <p />
+      <p class="mx-3 px-5">
         A croissant is a buttery, flaky, viennoiserie pastry inspired by the
         shape of the Austrian kipferl but using the French yeast-leavened
-        laminated dough. Croissants are named for their historical crescent
-        shape. The dough is layered with butter, rolled and folded several times
-        in succession, then rolled into a thin sheet, in a technique called
-        laminating. The process results in a layered, flaky texture, similar to
-        a puff pastry.
+        laminated dough.
+        <a
+          href="contact.html"
+          class="link-secondary link-underline-opacity-75-hover"
+          >Croissants
+        </a>
+        are named for their historical crescent shape. The dough is layered with
+        butter, rolled and folded several times in succession, then rolled into
+        a thin sheet, in a technique called laminating. The process results in a
+        layered, flaky texture, similar to a puff pastry.
       </p>
-      <div class="d-flex justify-content-center text-warning-emphasis">
+      <div class="d-flex justify-content-center text-warning-emphasis mt-5">
         <a
           class="link-warning link-underline-opacity-0 link-underline-opacity-75-hover"
           href="index.html"

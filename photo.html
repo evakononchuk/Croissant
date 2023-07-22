@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src https://*; child-src 'none';"
+    />
+    <meta
       name="viewport"
       content="Rich, flaky and the perfect complement to your morning cup of coffee, the croissant is the quintessential French pastry"
     />
@@ -12,10 +16,18 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <title>Croissant Picture</title>
+    <link
+      rel="canonical"
+      href="https://inspiring-sundae-f8118d.netlify.app/index.html"
+    />
+    <title>
+      A croissant is a buttery, flaky, viennoiserie pastry inspired by the shape
+      of the Austrian kipferl but using the French yeast-leavened laminated
+      dough.
+    </title>
   </head>
   <body class="bg-warning-subtle" data-bs-theme="dark">
-    <div class="text-center my-4">
+    <div class="text-center my-5">
       <h1 class="display-2 text-warning">Croissant Picture</h1>
       <div class="px-5 py-5">
         <img
@@ -28,17 +40,17 @@
         <a
           class="link-warning link-underline-opacity-0 link-underline-opacity-75-hover"
           href="index.html"
-          >Homepage</a
+          ><h2 class="h6">Homepage</h2></a
         >
         <a
           class="px-4 link-warning link-underline-opacity-0 link-underline-opacity-75-hover"
           href="photo.html"
-          >Photo</a
+          ><h2 class="h6">Photo</h2></a
         >
         <a
           class="link-warning link-underline-opacity-0 link-underline-opacity-75-hover"
           href="contact.html"
-          >Contact</a
+          ><h2 class="h6">Contact</h2></a
         >
       </div>
     </div>
